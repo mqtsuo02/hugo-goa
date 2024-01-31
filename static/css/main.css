@@ -96,15 +96,6 @@ div.content
     font-weight: 200;
     color: #8b8b8b;
 }
-.description code {
-    color: #1f2328;
-    background-color: rgba(175,184,193,0.2);
-    padding: 0.2em 0.4em;
-    margin: 0;
-    font-size: 85%;
-    white-space: break-spaces;
-    border-radius: 6px;
-}
 .status
 {
     font-family: 'Roboto', sans-serif;

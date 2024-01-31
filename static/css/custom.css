@@ -1,1 +1,27 @@
 /* Add custom CSS here. */
+.header {
+    margin-bottom: 12px;
+}
+.description {
+    line-height: 1.5;
+}
+.description p {
+    margin-bottom: 0.4rem;
+}
+.description code {
+    color: #1f2328;
+    background-color: rgba(175,184,193,0.2);
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    white-space: break-spaces;
+    border-radius: 6px;
+}
+@media (max-width: 991px) {
+    .description {
+        font-size: 14px;
+    }
+    .description ul {
+        padding-inline-start: 20px;
+    }
+}
