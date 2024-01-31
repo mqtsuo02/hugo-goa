@@ -25,6 +25,12 @@
     font-weight: 200;
     color: #8b8b8b;
 }
+.footer {
+    margin-bottom: 18px;
+}
+.gopher {
+    width: 60px;
+}
 @media (max-width: 991px) {
     .description {
         font-size: 14px;
