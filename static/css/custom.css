@@ -4,6 +4,8 @@
 }
 .description {
     line-height: 1.5;
+    font-size: 16px;
+    text-align: left;
 }
 .description p {
     margin-bottom: 0.4rem;
@@ -16,6 +18,12 @@
     font-size: 85%;
     white-space: break-spaces;
     border-radius: 6px;
+}
+.status {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: #8b8b8b;
 }
 @media (max-width: 991px) {
     .description {
