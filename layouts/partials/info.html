@@ -2,6 +2,11 @@
   {{ with .Site.Params.intro }}
   <h3 class="intro">{{ . | markdownify }}</h3>
   {{ end }}
+  {{ with .Site.Params.status }}
+  <h4 class="status">{{ . | markdownify }}</h4>
+  {{ end }}
+  {{ partial "social.html" . }}
+  <hr />
   {{ with .Site.Params.description }}
   <h4 class="description">{{ . | markdownify }}</h4>
   {{ end }}
